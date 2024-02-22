@@ -1,0 +1,114 @@
+.post-image1-2-icon1 {
+  position: absolute;
+  top: -1304px;
+  left: -2090px;
+  width: 10032px;
+  height: 8304px;
+  object-fit: cover;
+}
+.desktop-6-child,
+.ellipse-shape {
+  position: absolute;
+  top: 1166px;
+  left: 5555px;
+  border-radius: 50%;
+  background-color: var(--color-lightgreen);
+  filter: blur(180px);
+  width: 1903px;
+  height: 1829px;
+}
+.ellipse-shape {
+  top: 1447px;
+  left: 1507px;
+  background-color: var(--color-lightcoral);
+  filter: blur(190px);
+  width: 1497px;
+  height: 1268px;
+}
+.recent-blogs {
+  margin: 0;
+  position: absolute;
+  top: 78px;
+  left: 2093px;
+  font-size: var(--font-size-326xl);
+  line-height: 125%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 2177px;
+}
+.easy-skincare-frmula,
+.skincare-brands-for {
+  position: absolute;
+  top: 2557px;
+  left: 272px;
+  line-height: 125%;
+}
+.easy-skincare-frmula {
+  top: 3906px;
+  left: 3678px;
+  display: inline-block;
+  width: 1792px;
+  height: 355px;
+}
+.share-icon2 {
+  position: absolute;
+  top: 3458px;
+  left: 54321px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.group-container-icon {
+  position: absolute;
+  top: 171px;
+  left: 5555px;
+  width: 362px;
+  height: 323px;
+}
+.polygon-shape-icon1 {
+  position: absolute;
+  top: 211.8px;
+  left: 5628.9px;
+  width: 214px;
+  height: 242px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.post-image1-1-icon,
+.post-image2-1-icon {
+  position: absolute;
+  top: 805px;
+  left: 75px;
+  border-radius: var(--br-31xl);
+  width: 2627px;
+  height: 1568px;
+  object-fit: cover;
+}
+.post-image2-1-icon {
+  top: 2182px;
+  left: 3142px;
+  width: 2640px;
+  height: 1625px;
+}
+.desktop-6-item {
+  position: absolute;
+  top: 3557px;
+  left: -590px;
+  border-radius: 50%;
+  background-color: var(--color-plum);
+  filter: blur(180px);
+  width: 1903px;
+  height: 1829px;
+}
+.desktop-6 {
+  width: 100%;
+  height: 4472px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-161xl);
+  color: var(--color-black);
+  font-family: var(--font-josefin-slab);
+}

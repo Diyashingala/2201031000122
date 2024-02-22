@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Slab:wght@300;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <main class="main-frame">
+        <img class="index-01-1-icon" alt="" src="./public/index01-1@2x.png" />
+
+        <section class="second-frame">
+          <div class="about-frame">
+            <div class="shop-frame">
+              <b class="home">Home</b>
+              <b class="about">About</b>
+              <b class="shop" id="shopText">Shop</b>
+              <b class="blog" id="blogText">Blog</b>
+              <b class="contact">Contact</b>
+            </div>
+          </div>
+          <div class="contact-frame">
+            <div class="ellipse-decor"></div>
+            <h1 class="diya">Diya</h1>
+          </div>
+        </section>
+        <section class="welcome-frame">
+          <h2 class="skincare-welcomes-you">skincare welcomes you</h2>
+        </section>
+        <div class="third-frame">
+          <div class="rectangle-button">
+            <div class="container-frame" id="containerFrame"></div>
+            <b class="lets-go">LET’S GO!</b>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      var shopText = document.getElementById("shopText");
+      if (shopText) {
+        shopText.addEventListener("click", function (e) {
+          window.location.href = "./desktop2.html";
+        });
+      }
+      
+      var blogText = document.getElementById("blogText");
+      if (blogText) {
+        blogText.addEventListener("click", function (e) {
+          window.location.href = "./desktop5.html";
+        });
+      }
+      
+      var containerFrame = document.getElementById("containerFrame");
+      if (containerFrame) {
+        containerFrame.addEventListener("click", function (e) {
+          window.location.href = "./desktop1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

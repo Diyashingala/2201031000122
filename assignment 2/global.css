@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-josefin-slab: "Josefin Slab";
+  --font-inria-serif: "Inria Serif";
+
+  /* font sizes */
+  --font-size-171xl: 190px;
+  --font-size-28xl: 47px;
+  --font-size-57xl: 76px;
+  --font-size-326xl: 345px;
+  --font-size-67xl: 86px;
+  --font-size-119xl: 138px;
+  --font-size-161xl: 180px;
+  --font-size-26xl: 45px;
+  --font-size-53xl: 72px;
+  --font-size-211xl: 230px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-palevioletred-100: rgba(166, 58, 95, 0.59);
+  --color-palevioletred-200: rgba(166, 58, 95, 0.13);
+  --color-black: #000;
+  --color-steelblue: rgba(51, 90, 135, 0.69);
+  --color-whitesmoke: #f9f5f2;
+  --color-lightgreen: rgba(150, 244, 159, 0.55);
+  --color-plum: rgba(176, 175, 235, 0.53);
+  --color-lightcoral: rgba(244, 150, 150, 0.55);
+
+  /* Gaps */
+  --gap-940xl: 959px;
+  --gap-xl: 20px;
+  --gap-2434xl: 2453px;
+  --gap-0: 0px;
+  --gap-486xl: 505px;
+  --gap-645xl: 664px;
+  --gap-893xl: 912px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-33xl: 52px;
+  --padding-353xl: 372px;
+  --padding-4xl: 23px;
+
+  /* Border radiuses */
+  --br-101xl: 120px;
+  --br-31xl: 50px;
+}

@@ -1,0 +1,68 @@
+.post-image1-2-icon3,
+.share-icon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6008px;
+  height: 4472px;
+  object-fit: cover;
+}
+.share-icon4 {
+  top: 3458px;
+  left: 54321px;
+  width: 90px;
+  height: 90px;
+}
+.insta-item1-1-icon,
+.insta-item4-1-icon {
+  position: absolute;
+  top: 2566px;
+  left: 158px;
+  width: 1793px;
+  height: 1820px;
+  object-fit: cover;
+  z-index: 1;
+}
+.insta-item1-1-icon {
+  top: 233px;
+  left: 92px;
+  height: 1916px;
+}
+.insta-item2-1-icon,
+.insta-item3-1-icon,
+.insta-item5-1-icon,
+.insta-item6-1-icon {
+  position: absolute;
+  top: 233px;
+  left: 2353px;
+  width: 1625px;
+  height: 1916px;
+  object-fit: cover;
+  z-index: 1;
+}
+.insta-item3-1-icon,
+.insta-item5-1-icon,
+.insta-item6-1-icon {
+  left: 4446px;
+  width: 1423px;
+}
+.insta-item5-1-icon,
+.insta-item6-1-icon {
+  top: 2613px;
+  left: 2358px;
+  width: 1681px;
+  height: 1773px;
+}
+.insta-item6-1-icon {
+  top: 2566px;
+  left: 4446px;
+  width: 1423px;
+}
+.desktop-8 {
+  width: 100%;
+  height: 4472px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  cursor: pointer;
+}

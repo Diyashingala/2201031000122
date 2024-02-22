@@ -1,0 +1,154 @@
+.freckles-blonde-woman-portrait-icon1 {
+  position: absolute;
+  top: -85px;
+  left: 0;
+  width: 13861px;
+  height: 11625px;
+  object-fit: cover;
+}
+.portrait-frame5,
+.portrait-frame6 {
+  position: absolute;
+  top: 3449px;
+  left: 5259px;
+  border-radius: 50%;
+  background-color: var(--color-plum);
+  filter: blur(190px);
+  width: 1497px;
+  height: 1268px;
+}
+.portrait-frame6 {
+  top: 3478px;
+  left: -573px;
+}
+.latest-drops,
+.ordinary {
+  position: absolute;
+  line-height: 125%;
+}
+.latest-drops {
+  margin: 0;
+  top: 78px;
+  left: 2093px;
+  font-size: var(--font-size-326xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 2911px;
+}
+.ordinary {
+  top: 3253px;
+  left: 597px;
+}
+.portrait-frame7,
+.portrait-frame8 {
+  position: absolute;
+  top: 3717px;
+  left: 2356px;
+  border-radius: var(--br-101xl);
+  background-color: var(--color-palevioletred-100);
+  width: 1608px;
+  height: 443px;
+}
+.portrait-frame8 {
+  left: 231px;
+}
+.rs3 {
+  position: absolute;
+  top: 3795px;
+  left: 647px;
+  font-size: var(--font-size-211xl);
+  line-height: 125%;
+  color: var(--color-white);
+}
+.portrait-frame9 {
+  position: absolute;
+  top: 3717px;
+  left: 4352px;
+  border-radius: var(--br-101xl);
+  background-color: var(--color-palevioletred-100);
+  width: 1608px;
+  height: 443px;
+}
+.misolo {
+  top: 3253px;
+  left: 2952px;
+}
+.everdrop,
+.misolo,
+.rs4,
+.rs5 {
+  position: absolute;
+  line-height: 125%;
+}
+.everdrop {
+  top: 3253px;
+  left: 4916px;
+  display: inline-block;
+  width: 1611px;
+  height: 225px;
+}
+.rs4,
+.rs5 {
+  top: 3795px;
+  left: 2845px;
+  font-size: var(--font-size-211xl);
+  color: var(--color-white);
+}
+.rs5 {
+  left: 4839px;
+}
+.share-icon1 {
+  position: absolute;
+  top: 3458px;
+  left: 54321px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.custom-polygon-icon {
+  position: absolute;
+  top: 111px;
+  left: 5578px;
+  width: 407px;
+  height: 377px;
+}
+.product-item-holder {
+  position: absolute;
+  top: 172.8px;
+  left: 5674.9px;
+  width: 214px;
+  height: 242px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.product-item5-1-icon,
+.product-item6-1-icon,
+.product-item7-1-icon {
+  position: absolute;
+  top: 805px;
+  left: 93px;
+  width: 1663px;
+  height: 2096px;
+  object-fit: cover;
+}
+.product-item6-1-icon,
+.product-item7-1-icon {
+  left: 2356px;
+  width: 1655px;
+}
+.product-item7-1-icon {
+  left: 4537px;
+  width: 1423px;
+}
+.desktop-5 {
+  width: 100%;
+  height: 4472px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-161xl);
+  color: var(--color-black);
+  font-family: var(--font-josefin-slab);
+}

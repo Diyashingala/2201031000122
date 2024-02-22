@@ -1,0 +1,296 @@
+.index-01-1-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 21px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about,
+.home {
+  width: 488px;
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.about {
+  width: 516px;
+}
+.shop {
+  cursor: pointer;
+}
+.blog,
+.contact,
+.shop {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.blog {
+  width: 352px;
+  cursor: pointer;
+}
+.contact {
+  width: 623px;
+}
+.about-frame,
+.shop-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.shop-frame {
+  width: 3426px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.about-frame {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.ellipse-decor {
+  height: 568px;
+  width: 656px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -56px;
+  left: calc(50% - 328px);
+  border-radius: 50%;
+  background-color: var(--color-steelblue);
+  filter: blur(90px);
+  z-index: 1;
+}
+.diya {
+  margin: 0;
+  height: 537px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.contact-frame,
+.second-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contact-frame {
+  width: 910px;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  margin-top: -119px;
+  font-size: 448px;
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
+.second-frame {
+  width: 5094px;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+  font-size: var(--font-size-171xl);
+  color: var(--color-white);
+  font-family: var(--font-josefin-slab);
+}
+.skincare-welcomes-you {
+  margin: 0;
+  width: 1465px;
+  position: relative;
+  font-size: inherit;
+  line-height: 245px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.welcome-frame {
+  width: 4396px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 628px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-326xl);
+  color: var(--color-white);
+  font-family: var(--font-josefin-slab);
+}
+.container-frame,
+.lets-go {
+  position: relative;
+  max-width: 100%;
+}
+.container-frame {
+  height: 395px;
+  width: 1653px;
+  border-radius: var(--br-101xl);
+  background-color: var(--color-palevioletred-200);
+  cursor: pointer;
+  z-index: 1;
+}
+.lets-go {
+  width: 875px;
+  line-height: 125%;
+  display: inline-block;
+  white-space: pre-wrap;
+  z-index: 2;
+  margin-left: -1264px;
+}
+.rectangle-button,
+.third-frame {
+  width: 1653px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.third-frame {
+  width: 2599px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.desktop-1,
+.main-frame {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.main-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 104px 91px 526px;
+  box-sizing: border-box;
+  gap: 959px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-171xl);
+  color: var(--color-white);
+  font-family: var(--font-josefin-slab);
+}
+.desktop-1 {
+  width: 100%;
+  height: 4472px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 2450px) {
+  .shop-frame {
+    flex-wrap: wrap;
+  }
+  .desktop-1 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .shop-frame {
+    flex-wrap: wrap;
+  }
+  .main-frame {
+    gap: 959px 0;
+    padding: 44px 45px 222px;
+    box-sizing: border-box;
+  }
+  .desktop-1 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .about,
+  .blog,
+  .contact,
+  .home,
+  .shop {
+    font-size: var(--font-size-57xl);
+    line-height: 142px;
+  }
+  .shop-frame {
+    flex-wrap: wrap;
+  }
+  .diya {
+    font-size: 179px;
+  }
+  .skincare-welcomes-you {
+    font-size: var(--font-size-119xl);
+    line-height: 259px;
+  }
+  .welcome-frame {
+    padding-bottom: 408px;
+    box-sizing: border-box;
+  }
+  .lets-go {
+    font-size: var(--font-size-57xl);
+    line-height: 142px;
+  }
+  .main-frame {
+    gap: 959px 0;
+    padding: 29px 22px 144px;
+    box-sizing: border-box;
+  }
+  .desktop-1 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about,
+  .blog,
+  .contact,
+  .home,
+  .shop {
+    font-size: var(--font-size-28xl);
+    line-height: 95px;
+  }
+  .shop-frame {
+    flex-wrap: wrap;
+  }
+  .diya {
+    font-size: 112px;
+  }
+  .skincare-welcomes-you {
+    font-size: var(--font-size-67xl);
+    line-height: 172px;
+  }
+  .welcome-frame {
+    padding-bottom: 265px;
+    box-sizing: border-box;
+  }
+  .lets-go {
+    font-size: var(--font-size-28xl);
+    line-height: 95px;
+  }
+  .main-frame {
+    gap: 959px 0;
+    padding-top: var(--padding-xl);
+    padding-bottom: 94px;
+    box-sizing: border-box;
+  }
+  .desktop-1 {
+    height: auto;
+  }
+}
